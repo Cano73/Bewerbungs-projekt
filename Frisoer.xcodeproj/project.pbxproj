@@ -11,6 +11,7 @@
 		6FC84ED22A52D68B00C040CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC84ED12A52D68B00C040CA /* ContentView.swift */; };
 		6FC84ED42A52D68C00C040CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC84ED32A52D68C00C040CA /* Assets.xcassets */; };
 		6FC84ED82A52D68C00C040CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC84ED72A52D68C00C040CA /* Preview Assets.xcassets */; };
+		6FC84EE22A52D8AA00C040CA /* Entrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC84EE12A52D8AA00C040CA /* Entrance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6FC84ED32A52D68C00C040CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FC84ED52A52D68C00C040CA /* Frisoer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Frisoer.entitlements; sourceTree = "<group>"; };
 		6FC84ED72A52D68C00C040CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FC84EE12A52D8AA00C040CA /* Entrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				6FC84ECF2A52D68B00C040CA /* FrisoerApp.swift */,
+				6FC84EDE2A52D6F600C040CA /* Views */,
 				6FC84ED12A52D68B00C040CA /* ContentView.swift */,
+				6FC84EE12A52D8AA00C040CA /* Entrance.swift */,
 				6FC84ED32A52D68C00C040CA /* Assets.xcassets */,
 				6FC84ED52A52D68C00C040CA /* Frisoer.entitlements */,
 				6FC84ED62A52D68C00C040CA /* Preview Content */,
@@ -67,6 +71,13 @@
 				6FC84ED72A52D68C00C040CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FC84EDE2A52D6F600C040CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC84EE22A52D8AA00C040CA /* Entrance.swift in Sources */,
 				6FC84ED22A52D68B00C040CA /* ContentView.swift in Sources */,
 				6FC84ED02A52D68B00C040CA /* FrisoerApp.swift in Sources */,
 			);
