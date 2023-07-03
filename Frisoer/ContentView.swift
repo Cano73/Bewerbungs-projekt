@@ -9,21 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .trailing){
+        VStack(alignment: .center) {
             Entrance()
-                .padding(0.0)
+                .padding(.bottom, 2) // Änderung der positon von meinem  Image
+            
             Text("Mein Eingangsbild")
                 .font(.title)
                 .foregroundColor(.green)
                 .padding()
-                .frame(width: 0.0)
+            
             Text("Unser Eingang")
                 .font(.subheadline)
                 .foregroundColor(.indigo)
                 .italic()
         }
+        .background(Color(red: 0.98, green: 0.87, blue: 0.74).ignoresSafeArea()) // Hintergrundfarbe und ignoresSafeArea() anpassen
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
